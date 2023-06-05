@@ -11,19 +11,37 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
+body{
+    height: 100vh;
 }
 
-.my-row{
-    display: flex;
-    flex-wrap: wrap;
-    
+ul{
+    list-style-type: none;
 }
 
+main{
+    height: 100%;
+}
 
 /*---------------*/
+
+/* MAIN */
+/* HEADER */
+header{
+    height: 10vh;
+}
+/* HEADER */
+
+/* ASIDE */
+#sidebar{
+    position: sticky;
+    left: 0;
+    top: 0;
+    height: 90vh;
+
+}
+/* ASIDE */
+/* MAIN */
 
 /*-------DEBUG---------*/
 
@@ -43,7 +61,7 @@
     border: 3px solid blue;
 }
 
-.debug footer{
+.debug #sidebar{
     background-color: darkorange;
     border: 3px dashed blueviolet;
 }
