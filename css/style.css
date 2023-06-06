@@ -30,6 +30,16 @@ main{
 header{
     height: 5rem;
 }
+
+.logo-container{
+    width: 100%;
+}
+
+.logo-container > img.mobile{
+    max-width: 2.4rem;
+}
+
+
 /* HEADER */
 
 /* ASIDE */
@@ -51,12 +61,12 @@ header{
 /* MAIN */
 
 /*-------DEBUG---------*/
-
+/* 
 .debug{
 
     background-color: aqua;
     border: 3px dashed red;
-}
+} */
 
 /* .debug header{
     background-color: goldenrod;
