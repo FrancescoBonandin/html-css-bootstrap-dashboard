@@ -48,7 +48,16 @@ header{
     left: 0;
     top: 10vh;
     max-height: calc(100vh - 5rem );
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #031633;
+}
 
+#sidebar a, #sidebar a:visited{
+    text-decoration: none;
+}
+
+#sidebar li:hover a div{
+    background-color: var(--bs-dark-bg-subtle);
 }
 /* ASIDE */
 
@@ -73,12 +82,12 @@ header{
     border: 3px dotted green;
 } */
 
-.debug main{
+/* .debug main{
     background-color: crimson;
     border: 3px solid blue;
-}
+} */
 
-.debug #sidebar{
+/* .debug #sidebar{
     background-color: darkorange;
     border: 3px dashed blueviolet;
-}
+} */
