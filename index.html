@@ -203,7 +203,7 @@
 
                         <div class="content-top text-bg-primary row mx-0">
 
-                            <div class="col-xs-12 col-md-4 order-1 ">
+                            <div class="col-xs-12 col-md order-1 ">
 
 
                                 <div>
@@ -262,7 +262,7 @@
 
                             </div>
 
-                            <div class="col-xs-12 col-md-4 order-2 ">
+                            <div class="col-xs-12 col-md order-2 ">
 
                                 <div>
                                     studenti online ultimi 30min
@@ -274,7 +274,7 @@
 
                             </div>
 
-                            <div class="col-xs-12 col-md-4 order-0 order-md-3">
+                            <div class="col-xs-12 col-md order-0 order-md-3">
 
                                 <span>
 
@@ -282,7 +282,167 @@
 
                                 </span>
 
-                                <button>+</button>
+                                <button type="button"  class="btn btn-big btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">
+                                    +
+                                </button>
+
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+
+                                    <div class="offcanvas-header">
+
+                                      <h5 class="offcanvas-title" id="offcanvasExampleLabel">inserisci nuovo studente</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+                                    </div>
+
+                                    <div class="offcanvas-body">
+
+                                        <form action="" class="container-fluid">
+
+                                            <div class="row">
+
+                                                <div class="col">
+
+                                                    <label for="nome" class="form-label">Nome</label>
+                                                    <input type="text" id="nome" class="form-control" >
+
+                                                </div>
+
+                                                <div class="col">
+
+                                                    <label for="cognome" class="form-label">Cognome</label>
+                                                    <input type="text" id="cognome" class="form-control" >
+
+                                                </div>
+                                                
+
+                                            </div>
+
+                                            <div class="row">
+
+                                                <div class="col">
+
+                                                    <label for="email" class="form-label">Email</label>
+
+                                                    <div class="input-group ">
+                                                        
+                                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                                        <input type="email" class="form-control" id="email">
+                                                        
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="col">
+
+                                                    <label for="password" class="form-label">Password</label>
+                                                    <input type="password" id="password" class="form-control" >
+
+                                                </div>
+                                                
+
+                                            </div>
+
+                                            <div class="row">
+
+                                                <div class="col">
+
+                                                    <label for="email-2" class="form-label">Email</label>
+
+                                                    <div class="input-group ">
+                                                        
+                                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                                        <input type="email" class="form-control" id="email-2">
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="col">
+
+                                                    <label for="password-2" class="form-label">Password</label>
+                                                    <input type="password" id="password-2" class="form-control" >
+
+                                                </div>
+                                                
+
+                                            </div>
+
+                                            <div class="row">
+
+                                                <div class="col">
+
+                                                    <label for="Indirizzo" class="form-label">Indirizzo</label>
+                                                    <input type="text" class="form-control" id="Indirizzo">
+
+                                                </div>
+                                                
+                                            </div>
+
+                                            <div class="row">
+
+                                                <div class="col">
+
+                                                    <label for="citta" class="form-label">Città</label>
+                                                    <input type="text" class="form-control" id="citta">
+                                                        
+                                                   
+
+                                                </div>
+
+                                                <div class="col">
+
+                                                    <label for="Stato">Stato</label>
+                                                    <select class="form-select" id="Stato" aria-label="Default select example">
+
+                                                        <option selected>Scegli...</option>
+
+                                                        <option value="1">Italia</option>
+
+                                                        <option value="2">Inghilterra</option>
+
+                                                        <option value="3">Non la Francia</option>
+
+                                                    </select>
+
+                                                </div>
+
+                                                <div class="col">
+
+                                                    <label for="cap" class="form-label">CAP</label>
+                                                    <input type="number" id="cap" class="form-control" >
+
+                                                </div>
+                                                
+
+                                            </div>
+
+
+                                            <div class="row">
+
+                                                <div class="col">
+
+                                                    <label for="foto" class="form-label">Foto</label>
+                                                    <input class="form-control" type="file" id="foto">
+
+                                                </div>
+                                                
+                                            </div>
+
+                                            <div class="row">
+
+                                                <div class="col">
+
+                                                    <input type="checkbox" required name="unlock" id="checkbox">
+                                                    <label for="checkbox"></label>
+                                                </div>
+                                                
+                                            </div>
+
+                                        </form>
+
+                                    </div>
+                                  </div>
 
                             </div>
 
