@@ -35,13 +35,13 @@
         <main>
 
             <!-- header -->
-            <header class="sticky-top">
+            <header class="sticky-top bg-secondary-subtle">
 
-                <div class="container-fluid">
+                <div class="container-fluid h-100">
 
-                    <div class="row">
+                    <div class="row h-100 align-items-center">
 
-                        <div class="col-auto">
+                        <div class="col-auto bg">
 
                             logo
                             <img src="" alt="">
@@ -53,7 +53,19 @@
                         <div class="col">
 
                             <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+
+                                <div class="input-group">
+
+                                    <span class="input-group-text border-end-0 g-0 " id="magnifying-glass">
+
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+
+                                    </span>
+    
+                                    <input class="form-control bg-tertiary me-2 ms-0 border-start-0 ps-0" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search" aria-describedby="magnifying-glass">
+
+                                </div>
+
                             </form>
 
                         </div>
@@ -161,7 +173,7 @@
         
                     </aside>
         
-                    <div id="content" class=" col">
+                    <div id="content" class=" overflow-y-auto col">
 
                         <div class="row">
 
@@ -203,7 +215,7 @@
 
                         </div>
 
-                        <div class="row overflow-y-auto">
+                        <div class="mh-100 row ">
                             
                             <div class="col-xs-12">
 
@@ -326,9 +338,101 @@
                                 
                                 <div id="todo" class="card">
 
+                                    <h2 class="card-title">
+                                        todo
+                                    </h2>
+
+                                    <form class="" action="">
+
+                                        <ul class="list-group ">
+    
+                                            <li class="list-group-item ">
+
+                                                <input class="form-check-input me-2 " type="checkbox" name="" id="">
+                                                
+                                                <span>
+                                                    kickoff su nuove classi
+                                                </span>
+    
+                                            </li>
+    
+                                            <li class="list-group-item ">
+                                                <input class="form-check-input me-2 " type="checkbox" name="" id="">
+    
+                                                <span>
+                                                    lezione su bootsrap 5 classe 101
+                                                </span>
+    
+                                            </li>
+    
+                                            <li class="list-group-item ">
+                                                <input class="form-check-input me-2 " type="checkbox" name="" id="">
+    
+                                                <span>
+                                                    controllare username github studenti
+                                                </span>
+    
+                                            </li>
+                                            
+                                        </ul>
+
+                                    </form>
+
                                 </div>
 
                                 <div id="graph" class="card">
+
+                                    <img class="card-img-top" src="" alt="">
+
+                                    <h2 class="card-title">
+                                        Utenti attivi 
+                                    </h2>
+
+                                    <div>
+                                        lista utenti attivi piattaforma
+                                    </div>
+
+                                    <ul class="list-group ">
+    
+                                        <li class="list-group-item ">
+  
+                                            <span>
+                                                gennaio 1200
+                                            </span>
+
+                                        </li>
+
+                                        <li class="list-group-item ">
+
+                                            <span>
+                                                febbraio 1000
+                                            </span>
+
+                                        </li>
+
+                                        <li class="list-group-item ">
+
+                                            <span>
+                                                marzo 800
+                                            </span>
+
+                                        </li>
+
+                                        <li class="list-group-item ">
+
+                                            <a href="#nogo">
+
+                                                <span>
+                                                    Visualizza report approfondito
+                                                </span>
+
+                                            </a>
+
+                                        </li>
+
+                                        
+
+                                    </ul>
 
                                 </div>
 

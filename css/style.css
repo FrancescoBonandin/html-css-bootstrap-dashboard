@@ -28,7 +28,7 @@ main{
 /* MAIN */
 /* HEADER */
 header{
-    height: 10vh;
+    height: 5rem;
 }
 /* HEADER */
 
@@ -36,11 +36,18 @@ header{
 #sidebar{
     position: sticky;
     left: 0;
-    top: 0;
-    height: 90vh;
+    top: 10vh;
+    max-height: calc(100vh - 5rem );
 
 }
 /* ASIDE */
+
+/* CONTENT */
+#content{
+    max-height: calc(100vh - 5rem );
+}
+
+/* CONTENT */
 /* MAIN */
 
 /*-------DEBUG---------*/
@@ -51,10 +58,10 @@ header{
     border: 3px dashed red;
 }
 
-.debug header{
+/* .debug header{
     background-color: goldenrod;
     border: 3px dotted green;
-}
+} */
 
 .debug main{
     background-color: crimson;
