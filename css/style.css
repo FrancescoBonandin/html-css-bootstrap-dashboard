@@ -24,6 +24,20 @@ main{
     height: 100%;
 }
 
+::-webkit-scrollbar {
+    width: 0.7rem;
+    height: 100%;
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:#E2E3E5;
+    border-radius: 0.35rem;
+}
+
 /*---------------*/
 
 /* MAIN */
